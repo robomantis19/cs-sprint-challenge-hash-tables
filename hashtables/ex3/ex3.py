@@ -3,7 +3,14 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
-
+    result = []
+    for a in arrays[0]: 
+        for b in arrays[1]: 
+            for c in arrays[2]: 
+                if a == b:
+                    result.append(a)
+                if b == c: 
+                    result.append(b)
     return result
 
 
